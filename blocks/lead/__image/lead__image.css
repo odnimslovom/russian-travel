@@ -1,0 +1,7 @@
+.lead__image {
+  margin: 0;
+  width: 100%;
+  padding-top: 64px;
+  display: flex;
+  flex-flow: column;
+}
