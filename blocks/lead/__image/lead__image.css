@@ -1,7 +1,33 @@
 .lead__image {
   margin: 0;
-  width: 100%;
-  padding-top: 64px;
+  padding-top: 40px;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
+  width: 320px;
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .lead__image {
+    padding-top: 56px;
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__image {
+    padding-left: 48px;
+    padding-right: 48px;
+    width: 928px;
+    height: 580px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image {
+    padding: 64px 148px 0 148px;
+    width: 984px;
+    height: 615px;
+  }
 }

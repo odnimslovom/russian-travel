@@ -1,6 +1,9 @@
 .lead {
-  padding: 56px 148px 0 148px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 48px;
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    padding-top: 56px;
+  }
 }
