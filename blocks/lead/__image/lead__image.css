@@ -1,6 +1,6 @@
 .lead__image {
   margin: 0;
-  padding: 64px 0 148px;
+  padding-top: 64px;
   display: flex;
   flex-direction: column;
   width: 984px;
@@ -9,7 +9,7 @@
 
 @media (max-width: 1024px) {
   .lead__image{
-    padding: 56px 0 0 0;
+    padding-top: 56px;
     width: 928px;
     height: 580px;
   }
