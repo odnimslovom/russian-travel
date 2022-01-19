@@ -24,7 +24,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .photo-grid {
     grid-template-columns: repeat(4, 284px);
     grid-auto-rows: 213px;

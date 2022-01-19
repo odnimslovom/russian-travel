@@ -1,0 +1,15 @@
+.places {
+  padding-top: 64px;
+  display: grid;
+  grid-template-columns: 320px;
+  grid-auto-rows: min-content;
+  row-gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .places {
+    padding: 88px 24px 0 24px;
+    grid-template-columns: calc(768px - (2 * 24px));
+    row-gap: 73px;
+  }
+}
