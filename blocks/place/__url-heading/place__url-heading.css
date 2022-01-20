@@ -1,15 +1,11 @@
 .place__url-heading {
-  padding: 0;
+  padding-bottom: 12px;
   margin: 0;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
+  color: var(--light-grey);
 }
 
-@media (min-width: 768px) {
-  .place__url-heading {
-    padding-bottom: 12px;
-  }
-}
 

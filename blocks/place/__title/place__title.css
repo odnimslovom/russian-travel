@@ -1,15 +1,25 @@
 .place__title {
-  padding: 0 16px;
   margin: 0;
+  padding: 0;
   font-weight: 900;
-  font-size: 32px;
-  line-height: 35px;
+  font-size: 72px;
+  line-height: 76px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .place__title {
-    padding: 0;
-    font-size: 42px;
+    font-size: 43px;/* При 42 пикселях заголовок в одну строку, закостылил.*/
     line-height: 46px;
   }
 }
+
+@media (max-width: 320px) {
+  .place__title {
+    font-size: 32px;/* При 42 пикселях заголовок в одну строку, закостылил.*/
+    line-height: 35px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+
