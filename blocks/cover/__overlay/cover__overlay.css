@@ -5,9 +5,11 @@
   color: var(--white);
   background-color: rgba(42, 44, 47, .3);
   position: absolute;
+  transition: all 0.6s linear;
 }
 
 .cover__overlay:hover {
+  transition: all 0.6s linear;
   background-color: rgba(42, 44, 47, .8);
 }
 

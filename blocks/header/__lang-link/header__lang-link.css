@@ -8,6 +8,12 @@
   color: var(--white);
 }
 
+.header__lang-link:hover {
+  cursor: pointer;
+  transition: opacity .2s linear;
+  opacity: .6;
+}
+
 .header__lang-link:last-child {
   margin-right: 0;
 }

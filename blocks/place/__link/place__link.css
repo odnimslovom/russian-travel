@@ -5,3 +5,9 @@
   text-decoration-line: underline;
   color: var(--white);
 }
+
+.place__link:hover {
+  cursor: pointer;
+  transition: opacity .2s linear;
+  opacity: .6;
+}

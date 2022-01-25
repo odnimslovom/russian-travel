@@ -2,7 +2,7 @@
   min-height: 740px;
   max-width: 1184px;
   margin: 0 auto;
-  background: content-box url(../../images/cover/sunset-background.jpg) center/cover no-repeat;
+  background: content-box url(../../images/cover/sunset-background.jpg) center/contain no-repeat;
   position: relative;
 }
 
