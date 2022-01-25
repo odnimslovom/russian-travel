@@ -6,3 +6,14 @@
 .footer__links-item:last-child {
   padding-right: 0;
 }
+
+@media (max-width: 320px) {
+  .footer__links-item {
+    padding-right: 0;
+    padding-bottom: 32px;
+  }
+
+  .footer__links-item:last-child {
+    padding-bottom: 48px;
+  }
+}
