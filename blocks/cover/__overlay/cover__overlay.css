@@ -1,0 +1,13 @@
+.cover__overlay {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: var(--white);
+  background-color: rgba(42, 44, 47, .3);
+  position: absolute;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
+

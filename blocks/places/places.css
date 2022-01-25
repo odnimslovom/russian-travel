@@ -1,5 +1,5 @@
 .places {
-  padding: 92px 148px 0 148px;
+  padding: 92px 148px 92px 148px;
   display: grid;
   grid-template: auto / 1fr;
   row-gap: 80px;
@@ -14,14 +14,14 @@
 
 @media (max-width: 768px) {
   .places {
-    padding: 88px 24px 0 24px;
+    padding: 88px 24px 90px 24px;
     row-gap: 73px;
   }
 }
 
 @media (max-width: 320px) {
   .places {
-    padding: 64px 0 0 0;
+    padding: 64px 0 66px 0;
     row-gap: 50px;
   }
 }
