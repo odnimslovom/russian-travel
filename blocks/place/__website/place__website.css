@@ -1,13 +1,16 @@
 .place__website {
+  padding-left: 16px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-start;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 768px) {
   .place__website {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 0;
   }
 }
+
+
 

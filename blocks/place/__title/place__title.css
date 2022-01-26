@@ -1,25 +1,22 @@
 .place__title {
   margin: 0;
-  padding: 0;
+  padding-left: 16px;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 32px;
+  line-height: 35px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .place__title {
-    font-size: 43px;/* При 42 пикселях заголовок в одну строку, закостылил.*/
+    padding-left: 0;
+    font-size: 43px;
     line-height: 46px;
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 1024px) {
   .place__title {
-    font-size: 32px;/* При 42 пикселях заголовок в одну строку, закостылил.*/
-    line-height: 35px;
-    padding-left: 16px;
-    padding-right: 16px;
+    font-size: 72px;
+    line-height: 76px;
   }
 }
-
-

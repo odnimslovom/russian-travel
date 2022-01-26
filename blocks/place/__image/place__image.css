@@ -4,16 +4,21 @@
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .place__image {
-    width: 340px;
-    height: 340px;
+    max-height: 340px;
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 1024px) {
   .place__image {
-    width: 320px;
-    height: 320px;
+    max-height: 440px;
   }
 }
+
+@media (min-width: 1280px) {
+  .place__image {
+    max-height: 460px;
+  }
+}
+
