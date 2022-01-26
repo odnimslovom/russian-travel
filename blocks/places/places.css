@@ -1,5 +1,6 @@
 .places {
   padding-top: 64px;
+  padding-bottom: 66px;
   width: 100%;
   display: grid;
   grid-template: auto / 1fr;
@@ -9,6 +10,7 @@
 @media (min-width: 768px) {
   .places {
     padding-top: 88px;
+    padding-bottom: 90px;
     width: 93.75%;
     row-gap: 73px;
   }
@@ -17,6 +19,7 @@
 @media (min-width: 1024px) {
   .places {
     padding-top: 92px;
+    padding-bottom: 92px;
     width: 90.625%;
     row-gap: 80px;
   }
