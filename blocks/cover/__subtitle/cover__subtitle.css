@@ -1,30 +1,11 @@
 .cover__subtitle {
-  margin: 0;
-  padding: 32px 412px 0 412px;
+  margin: 0 auto;
+  padding-top: 32px;
+  max-width: 360px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
 }
 
-@media (max-width: 1024px) {
-  .cover__subtitle {
-    padding-left: 332px;
-    padding-right: 332px;
-  }
-}
 
-@media (max-width: 768px) {
-  .cover__subtitle {
-    padding-left: 204px;
-    padding-right: 204px;
-  }
-}
-
-@media (max-width: 320px) {
-  .cover__subtitle {
-    padding: 16px 16px 0 16px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}

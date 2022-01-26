@@ -1,26 +1,13 @@
 .cover {
   min-height: 740px;
-  max-width: 1184px;
+  width: calc(100% - 2 * 46px);
   margin: 0 auto;
   background: content-box url(../../images/cover/sunset-background.jpg) center/contain no-repeat;
   position: relative;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024) {
   .cover {
-    min-height: 640px;
     width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover {
-    min-height: 480px;
-  }
-}
-
-@media (max-width: 320px) {
-  .cover {
-    min-height: 200px;
   }
 }
