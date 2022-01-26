@@ -1,6 +1,6 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
+  width: 142px;
+  height: 42px;
 }
 
 .header__logo:hover {
@@ -9,10 +9,9 @@
   opacity: .6;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 768px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
+    width: 176px;
+    height: 52px;
   }
 }
-

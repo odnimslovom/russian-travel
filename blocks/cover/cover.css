@@ -1,26 +1,32 @@
 .cover {
-  min-height: 740px;
-  max-width: 1184px;
-  margin: 0 auto;
-  background: content-box url(../../images/cover/sunset-background.jpg) center/contain no-repeat;
-  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background: content-box url(../../images/cover/sunset-background.jpg) center/cover no-repeat;
+  display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 425px) {
   .cover {
-    min-height: 640px;
-    width: 100%;
+    min-height: 340px;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .cover {
     min-height: 480px;
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 1024px) {
   .cover {
-    min-height: 200px;
+    min-height: 640px;
   }
 }
+
+@media (min-width: 1280px) {
+  .cover {
+    width: 92.5%;
+    min-height: 740px;
+  }
+}
+
